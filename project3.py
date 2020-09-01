@@ -27,7 +27,7 @@ class kulliyat():
 class denetim():
     
     def __init__(self):
-
+        ## reading the testing file
         self.veri = open("deneme.txt","r").read()
         self.veri = self.veri.lower().split()
         self.yaz = open('deneme_duzeltilmis.txt','w')
